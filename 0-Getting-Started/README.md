@@ -1,7 +1,7 @@
 # First steps #
 We're gonna start where every programmer begins their journey, a classic `"Hello World"` program.
 
-Open up your favourite text editor or IDE (Integrated Development Environment) [^1] and create a file called `hello_world.py`. In this file write the following code 
+Open up your favourite text editor or IDE (Integrated Development Environment)and create a file called `hello_world.py`. In this file write the following code 
 ```py
 print("Hello World!")
 ```
@@ -19,4 +19,27 @@ We're now gonna take a look at exactly what we're doing. I'm aware its only one 
 
 We first start by writing `print` which is a python built-in function to write things. next we open and close parentheses `()`, this signifies that we call the function, which is a fancy way to say we wish to use it at execution. Inside these parentheses we write what is known as a string, which is any alpha-numeric piece of text enclosed with quotation marks `"`, in our code, `"Hello World!"` is a string which we want to print out, as such we pass it within the parentheses of `print` and voila! we have written our very first python program. 
 
-[^1]: If you don't have a text editor or IDE you can easily follow along in [Google Colab](https://colab.research.google.com/) and use the handy run button for your code in cells.
+# Comments #
+Comments are a handy way to let people know what a piece of code does, or to keep a mental note for yourself.
+
+Comments in python begin with a hash symbol `#`. Continuing on in `hello_world.py` lets put a comment to let people know what we're doing.
+
+```py
+# This prints hello world
+print("Hello World!")
+```
+
+Comments can also be placed inline with code
+
+```py
+print("Hello World!") # This prints hello world
+```
+
+Comments are ignored by python code, so they are also an easy way to stop certain pieces of code from executing
+
+```py
+# print("This does not print")
+print("Hello World!")
+```
+
+Executing this code 
