@@ -21,4 +21,4 @@ print(2a)
 # it is advised to use snake case while nameing variables. this means
 panda_ml_1 = 0
 # is preferred compared to this
-PandaMl1 - 0
+PandaMl1 = 0
